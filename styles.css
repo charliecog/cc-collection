@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #E2E1D4;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div {
+    width: 32%;
+    text-align: center;
+    padding: 10px;
+}
+
+div img {
+    width: 40%;
+}
+
+h1 {
+    color: #13195C;
+    min-height: 80px;
+}
+
+p {
+    color: #990834;
+}
+
+@media screen and (max-width: 1300px) {
+    main div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main div {
+        width: 100%;
+    }
+}
