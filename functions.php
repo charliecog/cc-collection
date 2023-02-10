@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Creates a DB conn
+ * Creates a DB connection
  *
  * @return PDO the db conn
  */
